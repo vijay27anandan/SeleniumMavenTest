@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="URL" value="https://adactinhotelapp.com/" />
+		<parameter name="waittime" value="5" />
+		<parameter name="Username" value="ivijayanandan" />
+		<parameter name="Password" value="9790183014" />
+		<parameter name="Location" value="Brisbane" />
+		<parameter name="Hotel" value="Hotel Sunshine" />
+		<parameter name="Room Type" value="Super Deluxe" />
+		<parameter name="Room No" value="4 - Four" />
+		<parameter name="In Date" value="15-05-2021" />
+		<parameter name="Out Date" value="17-05-2021" />
+		<parameter name="Adults" value="4 - Four" />
+		<parameter name="Children" value="4 - Four" />
+		<parameter name="Fname" value="vijay" />
+		<parameter name="Lname" value="anandan" />
+		<parameter name="Address" value="pallikaranai" />
+		<parameter name="CCNum" value="5555444466667770" />
+		<parameter name="CCType" value="VISA" />
+		<parameter name="CCExpMon" value="December" />
+		<parameter name="CCExpYear" value="2022" />
+		<parameter name="CCCvv" value="117" />
+		<classes>
+			<class name="org.adactin.AdactinUsingTestNg" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
